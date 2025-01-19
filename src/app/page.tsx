@@ -19,7 +19,7 @@ export default function Homepage(){
                 
                 <section className={`${styles["services"]}`}>
                     <div className={`${styles["section"]}`}>
-                        <h2>Our Services</h2>
+                        <h2 className={`${styles["section__title"]}`}>Our Services</h2>
                         <ul className={`${styles["services__list"]}`}>
                             <li className={`${styles["services__item"]} ${styles["card"]}`}>
                                 <Image src={dumpIcon} alt="dumptruck" className={`${styles["card__image"]}`} style={{width: "auto", height: "auto"}}></Image>
@@ -34,7 +34,7 @@ export default function Homepage(){
                 </section>
             </main>
             <footer className={`${styles["contact"]}`}>
-                <h2>Contact Us</h2>
+                <h2 className={`${styles["section__title"]}`}>Contact Us</h2>
                 <address>
                     6Q43+H8Q City of Naga, 
                     <br />
