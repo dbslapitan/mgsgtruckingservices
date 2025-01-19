@@ -1,5 +1,11 @@
+import styles from "./page.module.scss";
+
 export default function Homepage(){
     return (
-        <h1>Website under maintenance!!!</h1>
+        <>
+            <header className={`${styles["header"]}`}>
+                <a className={`${styles["header__logo"]}`} href="#">MGSG Trucking Services</a>
+            </header>
+        </>
     );
 }

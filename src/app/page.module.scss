@@ -1,0 +1,13 @@
+.header{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &__logo{
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+}
