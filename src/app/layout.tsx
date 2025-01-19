@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Titillium_Web } from "next/font/google";
+import { Space_Mono } from "next/font/google";
 import "./globals.scss";
 
-const spaceMono = Titillium_Web({
-    weight: ["400", "600", "700"],
+const spaceMono = Space_Mono({
+    weight: ["400", "700"],
     subsets: ["latin"]
 });
 

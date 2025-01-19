@@ -1,13 +1,25 @@
-.header{
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+@use "../styles/variables" as *;
 
-    &__logo{
-        text-decoration: none;
-        color: inherit;
-        font-size: 1.75rem;
-        font-weight: 700;
+.header{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactus{
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid black;
+
+    &:hover{
+        color: $primary;
+        background-color: black;
     }
+}
+
+.contact{
+    padding: 1rem;
 }
