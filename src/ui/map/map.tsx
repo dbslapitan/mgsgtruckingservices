@@ -6,7 +6,6 @@ import styles from "./map.module.scss";
 const GOOGLE_MAPS_API = process.env.NEXT_PUBLIC_MAPS_API;
 
 export default function Map(){
-    console.log(GOOGLE_MAPS_API)
 
     const address = {
         lng: 123.75337136415794,

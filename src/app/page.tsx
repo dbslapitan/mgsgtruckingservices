@@ -2,6 +2,8 @@ import styles from "./page.module.scss";
 import logo from "../../public/assets/mts_logo.png";
 import Image from "next/image";
 import Map from "@/ui/map/map";
+import dumpIcon from "../../public/assets/dump.png";
+import gravelIcon from "../../public/assets/gravel.png";
 
 export default function Homepage(){
 
@@ -13,6 +15,24 @@ export default function Homepage(){
                 </a>
                 <a href="#" className={`${styles["contactus"]}`}>Contact Us</a>
             </header>
+            <main>
+                
+                <section className={`${styles["services"]}`}>
+                    <div className={`${styles["section"]}`}>
+                        <h2>Our Services</h2>
+                        <ul className={`${styles["services__list"]}`}>
+                            <li className={`${styles["services__item"]} ${styles["card"]}`}>
+                                <Image src={dumpIcon} alt="dumptruck" className={`${styles["card__image"]}`} style={{width: "auto", height: "auto"}}></Image>
+                                <h3 className={`${styles["card__title"]}`}>Hauling</h3>
+                            </li>
+                            <li className={`${styles["services__item"]} ${styles["card"]}`}>
+                                <Image src={gravelIcon} alt="dumptruck" className={`${styles["card__image"]}`} style={{width: "auto", height: "auto"}}></Image>
+                                <h3 className={`${styles["card__title"]}`}>Sand & Gravel</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
             <footer className={`${styles["contact"]}`}>
                 <h2>Contact Us</h2>
                 <address>

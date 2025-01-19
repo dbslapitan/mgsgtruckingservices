@@ -20,6 +20,33 @@
     }
 }
 
+.card{
+
+    &__image{
+        width: 4rem;
+        display: block;
+        margin: auto;
+    }
+
+    &__title{
+        color: black;
+        text-align: center;
+    }
+}
+
 .contact{
+    padding: 1rem;
+}
+
+.services{
+    background-color: black;
+    color: white;
+
+    &__item{
+        background-color: white;
+    }
+}
+
+.section{
     padding: 1rem;
 }
