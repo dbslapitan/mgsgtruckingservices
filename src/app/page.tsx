@@ -16,8 +16,13 @@ export default function Homepage(){
             <footer className={`${styles["contact"]}`}>
                 <h2>Contact Us</h2>
                 <address>
-                    6Q43+H8Q City of Naga, Cebu, Philippines
+                    6Q43+H8Q City of Naga, 
+                    <br />
+                    Cebu, Philippines
                 </address>
+                <p>{`SMART: (+63) 962 802 8946`}</p>
+                <p>{`GLOBE: (+63) 967 453 4460`}</p>
+                <p>{`lapitan@mgsgtruckingservices.com`}</p>
                 <Map/>
             </footer>
         </>
