@@ -28,9 +28,10 @@
     padding: 1rem;
 
     &__image{
-        width: fit-content;
+        width: 19.4375rem;
         display: block;
         margin: auto;
+        object-fit: cover;
     }
 
     &__title{
