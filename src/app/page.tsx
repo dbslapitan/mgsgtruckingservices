@@ -13,7 +13,7 @@ export default function Homepage(){
                 <a className={`${styles["header__logo"]}`} href="#">
                     <Image src={logo} width={64} height={64} alt="MTS"></Image>
                 </a>
-                <a href="#" className={`${styles["contactus"]}`}>Contact Us</a>
+                <a href="#contact" className={`${styles["contactus"]}`}>Contact Us</a>
             </header>
             <main>
                 
@@ -33,7 +33,7 @@ export default function Homepage(){
                     </div>
                 </section>
             </main>
-            <footer className={`${styles["contact"]}`}>
+            <footer id="contact" className={`${styles["contact"]}`}>
                 <h2 className={`${styles["section__title"]}`}>Contact Us</h2>
                 <address>
                     6Q43+H8Q City of Naga, 

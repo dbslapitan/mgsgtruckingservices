@@ -5,6 +5,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    max-width: 62rem;
+    margin: auto;
 }
 
 .contactus{
@@ -21,9 +23,12 @@
 }
 
 .card{
+    max-width: 21.4375rem;
+    height: 100%;
+    padding: 1rem;
 
     &__image{
-        width: 4rem;
+        width: fit-content;
         display: block;
         margin: auto;
     }
@@ -38,6 +43,9 @@
 
 .contact{
     padding: 1rem;
+    max-width: 62rem;
+    margin: auto;
+    text-align: center;
 }
 
 .services{
@@ -46,14 +54,14 @@
 
     &__list{
         margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     &__item{
         background-color: white;
-
-        &:not(:first-of-type){
-            margin-top: 0.5rem;
-        }
     }
 }
 
