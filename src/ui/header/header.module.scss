@@ -1,8 +1,50 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
 .header{
-    padding: 1rem;
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    max-width: 62rem;
-    margin: auto;
+    padding: 1rem 1rem 0;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+
+    &__list{
+        display: none;
+        gap: 1rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
+        background-color: $primary;
+
+        &--show{
+            display: block;
+        }
+    }
+
+    &__item{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__link{
+        text-decoration: none;
+        padding: 0.5rem 0 0.25rem;
+        font-weight: 700;
+        font-size: 1.75rem;
+
+        &--selected{
+            border-bottom: 1px solid black;
+        }
+    }
+
+    &__toggle{
+        background-color: transparent;
+        border: none;
+    }
 }

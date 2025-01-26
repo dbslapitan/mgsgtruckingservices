@@ -1,5 +1,4 @@
 import styles from "./page.module.scss";
-import logo from "../../public/assets/logo.png";
 import Image from "next/image";
 import Map from "@/ui/map/map";
 import dumpIcon from "../../public/assets/dump.png";
@@ -9,7 +8,7 @@ export default function Homepage(){
 
     return (
         <>
-            <main>
+            {/* <main>
                 <section className={`${styles["services"]}`}>
                     <div className={`${styles["section"]}`}>
                         <h2 className={`${styles["section__title"]}`}>Our Services</h2>
@@ -37,7 +36,7 @@ export default function Homepage(){
                 <p>{`GLOBE: (+63) 967 453 4460`}</p>
                 <p>{`lapitan@mgsgtruckingservices.com`}</p>
                 <Map/>
-            </footer>
+            </footer> */}
         </>
     );
 }
