@@ -36,9 +36,9 @@ export default function Header(){
 
     return(
         <header className={`${styles["header"]}`}>
-            <a className={`${styles["header__logo"]}`} href="/">
+            <Link className={`${styles["header__logo"]}`} href="/">
                 <Image className={`${styles["header__image"]}`} width={128} height={128} src={logo} alt="MG Sand and Gravel, Hauling, and Trucking Services" priority />
-            </a>
+            </Link>
             <nav className={`${styles["nav"]}`}>
                 <button className={`${styles["nav__toggle"]}`} onClick={navToggle}>
                     <Image src={isOpen ? close : hamburger} width={48} height={48} alt=""/>
