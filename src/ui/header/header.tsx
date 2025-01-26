@@ -7,7 +7,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import close from "../../../public/assets/close.svg";
 import hamburger from "../../../public/assets/hamburger.svg";
-import { useEffect, useState } from "react";
+import { MouseEvent, useEffect, useState } from "react";
 
 export default function Header(){
 
@@ -37,7 +37,7 @@ export default function Header(){
     return(
         <header className={`${styles["header"]}`}>
             <a className={`${styles["header__logo"]}`} href="/">
-                <Image src={logo} width={96} height={96} alt="MTS" priority></Image>
+                <Image className={`${styles["header__image"]}`} width={128} height={128} src={logo} alt="MG Sand and Gravel, Hauling, and Trucking Services" priority />
             </a>
             <nav className={`${styles["nav"]}`}>
                 <button className={`${styles["nav__toggle"]}`} onClick={navToggle}>
