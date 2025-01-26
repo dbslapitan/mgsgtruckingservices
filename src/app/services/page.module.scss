@@ -1,0 +1,48 @@
+@use "../../styles/mixins" as *;
+
+.services{
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+
+    &__title{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    &__item{
+        width: 344px;
+        border: 2px solid black;
+        border-radius: 16px;
+        padding: 2rem 0;
+        height: 477px;
+    }
+
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 1rem;
+
+        @include tablet{
+            margin-top: 2rem;
+        }
+    }
+
+    &__image{
+        width: 100%;
+        object-fit: contain;
+        height: fit-content;
+
+        &--hauling{
+            padding: 0 1rem;
+        }
+    }
+
+    &__sub{
+        margin-top: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
