@@ -1,8 +1,9 @@
 import styles from "./page.module.scss";
 
-
 export default function Page(){
     return(
-        <h1>Gallery</h1>
+        <main className={`${styles["gallery"]}`}>
+            <h1 className={`${styles["gallery__title"]}`}>Gallery</h1>
+        </main>
     );
 }
