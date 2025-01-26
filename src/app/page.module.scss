@@ -1,27 +1,5 @@
 @use "../styles/variables" as *;
 
-.header{
-    padding: 1rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    max-width: 62rem;
-    margin: auto;
-}
-
-.contactus{
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 8px;
-    padding: 0.25rem 0.5rem;
-    border: 1px solid black;
-
-    &:hover{
-        color: $primary;
-        background-color: black;
-    }
-}
-
 .card{
     max-width: 21.4375rem;
     height: 100%;

@@ -1,5 +1,5 @@
 import styles from "./page.module.scss";
-import logo from "../../public/assets/mts_logo.png";
+import logo from "../../public/assets/logo.png";
 import Image from "next/image";
 import Map from "@/ui/map/map";
 import dumpIcon from "../../public/assets/dump.png";
@@ -9,14 +9,7 @@ export default function Homepage(){
 
     return (
         <>
-            <header className={`${styles["header"]}`}>
-                <a className={`${styles["header__logo"]}`} href="#">
-                    <Image src={logo} width={64} height={64} alt="MTS"></Image>
-                </a>
-                <a href="#contact" className={`${styles["contactus"]}`}>Contact Us</a>
-            </header>
             <main>
-                
                 <section className={`${styles["services"]}`}>
                     <div className={`${styles["section"]}`}>
                         <h2 className={`${styles["section__title"]}`}>Our Services</h2>

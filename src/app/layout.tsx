@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
 import "./globals.scss";
+import Header from "@/ui/header/header";
 
 const spaceMono = Space_Mono({
     weight: ["400", "700"],
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${spaceMono.className}`}>
+        <Header />
         {children}
       </body>
     </html>
