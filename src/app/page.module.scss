@@ -1,4 +1,69 @@
 @use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
+.landing{
+    margin: 1.5rem auto;
+    max-width: 70rem;
+    padding: 1rem;
+
+    &__section{
+        @include mid{
+            display: flex;
+        }
+    }
+
+    &__hero{
+        width: 100%;
+        object-fit: contain;
+        height: fit-content;
+        max-width: 24rem;
+        margin: auto;
+        display: block;
+
+        @include mid{
+            max-width: none;
+            height: 450px;
+            width: 450px;
+        }
+    }
+
+    &__description{
+        text-align: center;
+        padding: 1rem;
+        font-size: 1rem;
+        
+        @include mid{
+            flex-grow: 1;
+            padding: 2rem;
+            font-size: 1.375rem;
+        }
+    }
+
+    &__wrap{
+        width: 100%;
+        text-align: center;
+    }
+
+    &__redirect{
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        font-size: 1.5rem;
+        font-weight: 700;
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 0.5rem 1rem;
+
+        @include mid{
+            margin-top: 2rem;
+        }
+
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
 
 .card{
     max-width: 21.4375rem;

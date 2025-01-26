@@ -1,13 +1,19 @@
 import styles from "./page.module.scss";
 import Image from "next/image";
-import Map from "@/ui/map/map";
-import dumpIcon from "../../public/assets/dump.png";
-import gravelIcon from "../../public/assets/gravel.png";
+import hero from "../../public/assets/hero.jpg";
+import Link from "next/link";
 
 export default function Homepage(){
 
     return (
-        <>
+        <main className={`${styles["landing"]}`}>
+
+            <section className={`${styles["landing__section"]}`}>
+                <Image className={`${styles["landing__hero"]}`} src={hero} width={600} height={600} alt=""></Image>
+                <p className={`${styles["landing__description"]}`}>Welcome to <strong>MGSG Hauling and Trucking Services</strong>, your trusted partner for sand, gravel, hauling, and trucking services. With a commitment to reliability and quality, we deliver top-notch materials and offer custom hauling solutions tailored to your needs. We pride ourselves on competitive pricing, well-maintained equipment, and exceptional customer satisfaction. Contact us via phone or email and let us take care of your hauling and material delivery needs with precision and care.</p>
+            </section>
+            <Link className={`${styles["landing__redirect"]}`} href="/contact-us">Contact Us</Link>
+
             {/* <main>
                 <section className={`${styles["services"]}`}>
                     <div className={`${styles["section"]}`}>
@@ -37,6 +43,6 @@ export default function Homepage(){
                 <p>{`lapitan@mgsgtruckingservices.com`}</p>
                 <Map/>
             </footer> */}
-        </>
+        </main>
     );
 }
