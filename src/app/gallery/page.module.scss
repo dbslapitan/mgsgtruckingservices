@@ -12,10 +12,13 @@
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
+        align-items: center;
+        margin-top: 2rem;
     }
 
     &__image{
         max-width: 21.4375rem;
         object-fit: contain;
+        max-height: fit-content;
     }
 }
