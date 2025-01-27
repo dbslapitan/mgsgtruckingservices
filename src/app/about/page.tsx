@@ -5,6 +5,10 @@ export default function Page(){
     return(
         <main className={`${styles["about"]}`}>
             <section className={`${styles["about__section"]}`}>
+                <h2 className={`${styles["about__title"]}`}>About Us</h2>
+                <p className={`${styles["about__description"]}`}>In 2016, we started as San Pedro Calungsod Hauling and Trucking Services, a reliable partner in hauling materials with ease. As we broaden our field, in 2018, we started our washery in Balamban, slowly shaping up our business aggregates. After the pandemic strikes, we merge our business into one as MG Sand/Gravel and Trucking Services and living up to its standard of quality aggregates as we as trucking services that caters to your needs.</p>
+            </section>
+            <section className={`${styles["about__section"]}`}>
                 <h2 className={`${styles["about__title"]}`}>Our Mission</h2>
                 <p className={`${styles["about__description"]}`}>To provide reliable, high-quality sand, gravel, hauling, and trucking services that exceed customer expectations. We are committed to delivering top-notch materials and custom hauling solutions while ensuring safety, efficiency, and professionalism in every project. Our goal is to build lasting partnerships with our clients by consistently offering competitive pricing, well-maintained equipment, and exceptional customer care.</p>
             </section>
