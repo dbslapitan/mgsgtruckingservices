@@ -37,9 +37,9 @@ export default function Page(){
             <h1 className={`${styles["gallery__title"]}`}>Gallery</h1>
             <ul className={`${styles["gallery__list"]}`}>
                 {
-                    gallery.map(image => {
+                    gallery.map((image, index) => {
                         return(
-                            <li className={`${styles["gallery__item"]}`}>
+                            <li key={`gallery-${index}`} className={`${styles["gallery__item"]}`}>
                                 <Image className={`${styles["gallery__image"]}`} src={image} alt=""/>
                             </li>
                         );
