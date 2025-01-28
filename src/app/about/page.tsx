@@ -6,7 +6,7 @@ export default function Page(){
         <main className={`${styles["about"]}`}>
             <section className={`${styles["about__section"]}`}>
                 <h2 className={`${styles["about__title"]}`}>About Us</h2>
-                <p className={`${styles["about__description"]}`}>In 2016, we started as San Pedro Calungsod Hauling and Trucking Services, a reliable partner in hauling and transporting materials with ease. As we broaden our field, in 2018, we started our washery in Balamban, slowly shaping up our business in aggregates. After the pandemic strikes, we merge our business into one as <strong>MG Sand/Gravel and Trucking Services</strong> and living up to its standard of quality aggregates as well as trucking services that caters to your needs.</p>
+                <p className={`${styles["about__description"]}`}>In 2016, we started as San Pedro Calungsod Hauling and Trucking Services, a reliable partner in hauling and transporting materials such as corn, wheat, and soya, regularly serving BMEG and Asian Grains Corporation. As we broadened our scope, in 2018, we ventured into sand and gravel, establishing our washery in Balamban and gradually shaping our business in the aggregates industry. After the pandemic struck, we decided to merge our business into one under the name <strong>MG Sand/Gravel and Trucking Services</strong>, upholding our commitment to providing quality aggregates and dependable trucking services tailored to meet your needs.</p>
             </section>
             <section className={`${styles["about__section"]}`}>
                 <h2 className={`${styles["about__title"]}`}>Our Mission</h2>
