@@ -26,11 +26,19 @@ import gallery24 from "../../../public/gallery/gallery-24.jpg";
 //import gallery25 from "../../../public/gallery/gallery-25.jpg";
 import gallery26 from "../../../public/gallery/gallery-26.jpg";
 import gallery27 from "../../../public/gallery/gallery-27.jpg";
+import gallery28 from "../../../public/gallery/gallery-28.jpg";
+import gallery29 from "../../../public/gallery/gallery-29.jpg";
+import gallery30 from "../../../public/gallery/gallery-30.jpg";
+import gallery31 from "../../../public/gallery/gallery-31.jpg";
+import gallery32 from "../../../public/gallery/gallery-32.jpg";
+import gallery33 from "../../../public/gallery/gallery-33.jpg";
+import gallery34 from "../../../public/gallery/gallery-34.jpg";
+import gallery35 from "../../../public/gallery/gallery-35.jpg";
 import Image from "next/image";
 
 export default function Page(){
 
-    const gallery = [gallery01, gallery02, gallery03, gallery04, gallery05, gallery06, gallery07, gallery08, gallery09, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17, gallery18, gallery19, gallery20, gallery21, gallery22, gallery23, gallery24, gallery26, gallery27];
+    const gallery = [gallery01, gallery02, gallery03, gallery04, gallery05, gallery06, gallery07, gallery08, gallery09, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17, gallery18, gallery19, gallery20, gallery21, gallery22, gallery23, gallery24, gallery26, gallery27, gallery28, gallery29, gallery30, gallery31, gallery32, gallery33, gallery34, gallery35];
 
     return(
         <main className={`${styles["gallery"]}`}>
