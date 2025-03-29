@@ -12,7 +12,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
-        align-items: center;
+        align-items: start;
         margin-top: 2rem;
         justify-content: center;
     }
@@ -20,6 +20,6 @@
     &__image{
         max-width: 21.4375rem;
         object-fit: contain;
-        max-height: fit-content;
+        height: fit-content;
     }
 }
